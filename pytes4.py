@@ -5,8 +5,7 @@ from langchain.prompts import PromptTemplate
 import streamlit as st
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-proj-nbjFETtFADFhR7LN7KxsT3BlbkFJNCWFICekHCYtknS8xqFe"
-
+os.environ["OPENAI_API_KEY"]
 # Create an OpenAI LLM with a specified temperature
 llm = OpenAI(temperature=0.3)
 

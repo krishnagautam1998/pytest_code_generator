@@ -4,8 +4,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-proj-nbjFETtFADFhR7LN7KxsT3BlbkFJNCWFICekHCYtknS8xqFe"  # Replace with your actual OpenAI API key
-
+os.environ["OPENAI_API_KEY"]
 # Define a prompt template for generating pytest code
 prompt_template = PromptTemplate(
     input_variables=["function_description"],
